@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<!-- 优先使用 IE 最新版本和 Chrome -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<!-- 为移动设备添加 viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<!--忽略页面中的数字识别为电话，忽略email识别-->
+		<meta name="format-detection" content="telphone=no, email=no" />
+		<title>vip下载</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/header_nav.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/commonDownload.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/commonDownload.css"> -->
+		<!-- 联系我们 -->
+		<link rel="stylesheet" type="text/css" href="css/contact_us.css">
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/html5shiv.min.js"></script>
+			<script type="text/javascript" src="js/respond.min.js"></script>
+	    <![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/media.css" />
+		<!-- new css by wys -->
+		<link rel="stylesheet" type="text/css" href="css/new.css" />
+		<!-- ios下头部固定方案防止头部随着页面上拉滚动 -->
+		<link rel="stylesheet" type="text/css" href="css/headerstyle.css">
+		<!-- 搜索预览插件样式-->
+		<link rel="stylesheet" type="text/css" href="css/search_demo.css">
+	</head>
+
+	<body>
+		<main class="max-width-index">
+			<!--导航-->
+			<nav class="navbar navbar-default navbar-fixed-top top-box">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					    </button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/login.png">
+						</a>
+					</div>
+					<div class="form-group form-group-mobile visible-xs">
+						<input type="text" id="mobilearrcity" class="form-control" placeholder="输入关键字查询">
+						<div id='mobilesuggest' class="mobileac_results"></div>
+					</div>
+					<div class="collapse navbar-collapse" >
+						<ul class="nav navbar-nav navbar-right top-nav">
+							<li class="active">
+								<a href="index.html">
+									首页
+									<span class="sr-only">(current)</span>
+								</a>
+							</li>
+							<li>
+								<a href="">行业列表</a>
+							</li>
+							<li>
+								<a href="">合作支持</a>
+							</li>
+							<li>
+								<a href="">关于我们</a>
+							</li>
+							<li class="search_c hidden-sm hidden-xs">
+								<a href="#">搜索 <i class="glyphicon glyphicon-search"></i></a>
+							</li>
+							<form class="hidden-sm hidden-xs">
+								<input type="text" name="arrcity" id="arrcity" class="form-control search"/>
+								<div id='suggest' class="ac_results"></div>
+							</form>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container -->
+			</nav>
+			<!--/ 导航-->
+
+			<!-- ios头部固定框 -->
+			<div class="scrollable" id="scrollable">
+				<!--轮播图-->
+				<div id="carousel-example-generic" class="carousel slide banner" data-ride="carousel">
+					<!-- 圆点 -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+
+					<!-- 图片区域 -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/banner1.jpg" alt="">
+							<div class="banner-text">
+								<p style="font-size: 100px;color: #fff;padding: 10px;">HF<span style="font-size: 36px; color: #fff;display: block;">HF CARD READER</span>
+								</p>
+								<a href="" type="button" class="font-btn-a">立即购买</a>
+								
+							</div>
+							
+						</div>
+						<div class="item">
+							<img src="img/banner2.jpg" alt="">
+							<div class="banner-text">
+								<p style="font-size: 100px;color: #fff;padding: 10px;">HF<span style="font-size: 36px; color: #fff;display: block;">HF CARD READER</span>
+								</p>
+								<a href="" type="button" class="font-btn-a">立即购买</a>
+								
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/banner1.jpg" alt="">
+						</div>
+					</div>
+
+					<!-- 左右控制箭头 -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+
+				<!--vip下载-->
+				<div class="news" style="background-color: #eee;">
+					<div class="container">
+					
+						<div class="row news-content">
+							<div class="common-title">
+								<h2>—— VIP下载 ——</h2>						
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<div class="thumbnail">
+									<a href="">
+										<img src="img/product1.jpg" alt="" class="img-responsive">
+										<div class=" vip-style-lf">LF</div>
+									</a>
+									
+								</div>
+								<ul class="font-ul-vip" >
+									<li>NLS-MT60产品规格书<i class="iconfont">&#xe615;</i></li>
+									<li>WinCe工具软件用户手册<i class="iconfont">&#xe615;</i></li>
+									<li>NLS-MT100产品规格书<i class="iconfont">&#xe615;</i></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<div class="thumbnail">
+									<a href="">
+										<img src="img/product2.jpg" alt="" class="img-responsive">
+										<div class=" vip-style-lf">LF</div>
+									</a>
+								</div>
+								<ul class="font-ul-vip" >
+									<li>NLS-MT60产品规格书<i class="iconfont">&#xe615;</i></li>
+									<li>WinCe工具软件用户手册<i class="iconfont">&#xe615;</i></li>
+									<li>NLS-MT100产品规格书<i class="iconfont">&#xe615;</i></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<div class="thumbnail">
+									<a href="">
+										<img src="img/product3.jpg" alt="" class="img-responsive">
+										<div class=" vip-style-lf">LF</div>
+									</a>
+								</div>
+								<ul class="font-ul-vip" >
+									<li>NLS-MT60产品规格书<i class="iconfont">&#xe615;</i></li>
+									<li>WinCe工具软件用户手册<i class="iconfont">&#xe615;</i></li>
+									<li>NLS-MT100产品规格书<i class="iconfont">&#xe615;</i></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+				<!--联系我们-->
+				<div class="contact-us">
+					<div class="container">
+						<div class="row">
+							<div class="common-title">
+								<h2>—— 联系我们 ——</h2>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<p class="font-title">发邮件给我们</p>
+								<div>
+									<form class="">
+										<div class="form-group">
+										    <input type="text" class="form-control" id="" placeholder="请输入其他类问题">
+										</div>
+										<div class="row form-group">
+										  <div class="col-lg-3 col-md-3">
+										  	<label class="sr-only" for="name">name</label>
+										  	<input type="text" class="form-control" id="name" placeholder="姓名">
+										  </div>
+										  <div class="col-lg-3 col-md-3">
+										    <label class="sr-only" for="phone">phone</label>
+										  	<input type="text" class="form-control" id="phone" placeholder="手机号">
+										  </div>
+										  <div class="col-lg-6 col-md-6">
+										    <label class="sr-only" for="InputEmail">Email address</label>
+										  	<input type="email" class="form-control" id="InputEmail" placeholder="邮箱">
+										  </div>
+										</div>
+										<div class="form-group">
+											<textarea class="form-control" rows="10" placeholder="请输入详细内容"></textarea>
+										</div>
+										<button type="submit" class="btn btn-default btn-sm active">提交</button>
+										
+									  
+									</form>
+								</div>
+							</div>
+							<div class="col-lg-6 qr-code" >
+								<p class="font-title">扫码关注我们</p>
+								<div>
+									<img src="img/qr-code.png" >
+								</div>
+								<div>
+									<p class="font-phone">TEL:</p>
+									<p class="phone-num">139-1899-9394</p>
+									<p class="font-phone">Address:</p>
+									<p class="font-address">浦东新区年家浜路528号1504室</p>
+									<p class="font-phone">Email:</p>
+									<p class="font-address">13918999394@163.com</p>
+								</div>
+							</div>	
+						</div>
+					
+					</div>
+				</div>
+				
+				
+
+			<!-- 头部固定框结束 -->
+		
+		</main>
+		<footer>
+			<div class="footer">
+				<div class="font-footer">沪ICP备17008922</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="search_demo/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
+		<!-- ios下头部固定方案防止头部随着页面上拉滚动 -->
+		<script type="text/javascript" src="iostopfixed/scrollfix.js"></script>
+		<!-- 搜索预览插件 -->
+		<script type="text/javascript" src="search_demo/aircity.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
